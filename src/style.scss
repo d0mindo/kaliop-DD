@@ -8,8 +8,34 @@ body{
 header{
   background-color: white;
   text-align: center;
+  
+  .tlo{
+    width:100%;
+    max-height:200px;
+  }
+  .logo-name{
+    margin-top: -40px;
+    display:inline-block;
+    text-align: center;
+
+    .logo{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border:3px solid white;
+      background: white;
+    }
+    h1{
+      margin: 10px 0 5px;
+      font-size:1.5rem;
+    }
+  }
 }
 
+.posty-zdjecia{
+  width:400px;
+  height: 300px;
+}
 
 @media (min-width:768px){
 
